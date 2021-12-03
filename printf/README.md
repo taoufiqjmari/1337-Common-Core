@@ -1,21 +1,20 @@
-# Get Next Line
+# printf
 
 ```
-- Reading a line on a fd is way too tedious
+- Because putnbr and putstr aren’t enough
 ```
 ```
 Subject
-	https://github.com/taoufiqjmari/1337-Common-Core/blob/main/Get%20Next%20Line/en.subject.pdf
+	???
 ```
 ```
 Summary
-- The aim of this project is to make you code a function that returns a line ending with a newline, read from a file descriptor.
+- This project is pretty straight forward. You will recode printf. Hopefully youwill be able to reuse it in future project without the fear of being flagged as a cheater.You will mainly learn how to use variadic arguments.
 ```
 ```
 Learning outcomes
 - C:
-	- Static variables
-	- File manipulation
+	- Variadic functions
 ```
 ```
 Project prerequisites
@@ -29,16 +28,16 @@ How to use:
 	$> git clone https://github.com/taoufiqjmari/1337-Common-Core.git
 
 2 - On Terminal, go to project directory
-	$> cd "Get Next Line"
+	$> cd printf
 
 3 - Make the executable
 	$> make
 
 5 - Compile the main.c
-	$> gcc main.c get_next_line.c -o getline -D BUFFER_SIZE=100
+	$> gcc main.c libftprintf.a -o ft_printf
 
 6 - Run
-	$> ./getline
+	$> ./ft_printf
 ```
 ```
 The project follows the school norm:
