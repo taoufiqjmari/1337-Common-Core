@@ -5,7 +5,7 @@
 ```
 ```
 Subject
-	???
+	https://github.com/taoufiqjmari/1337-Common-Core/blob/main/Libft/en.subject.pdf
 ```
 ```
 Objectives
@@ -42,9 +42,6 @@ How to use:
 	$> make
 	$> make bonus (to use linked list functions)
 
-4 - Make a main.c file having a main function that uses one or mix of the functions in the library (don't forget to include the header file of the function in the main.c)
-	#include "libft.h"
-
 5 - Compile the main.c and libft.a
 	$> gcc main.c libft.a -o program
 
@@ -53,5 +50,5 @@ How to use:
 ```
 ```
 The project follows the school norm:
-	???
+	https://github.com/taoufiqjmari/1337-Common-Core/blob/main/Norm/C_Norm_V2.0.2/norme.en.pdf
 ```
