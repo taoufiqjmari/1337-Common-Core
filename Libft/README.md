@@ -43,10 +43,10 @@ How to use:
 	$> make bonus (to use linked list functions)
 
 5 - Compile the main.c and libft.a
-	$> gcc main.c libft.a -o program
+	$> gcc main.c libft.a -o libft
 
 6 - Run
-	$> ./program
+	$> ./libft
 ```
 ```
 The project follows the school norm:

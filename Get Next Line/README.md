@@ -31,14 +31,11 @@ How to use:
 2 - On Terminal, go to project directory
 	$> cd "Get Next Line"
 
-3 - Make the executable
-	$> make
+3 - Compile the main.c
+	$> gcc main.c get_next_line.c get_next_line_utils.c -D BUFFER_SIZE=100 -o getline
 
-5 - Compile the main.c
-	$> gcc main.c get_next_line.c -o getline -D BUFFER_SIZE=100
-
-6 - Run
-	$> ./getline
+4 - Run
+	$> ./getline [file]
 ```
 ```
 The project follows the school norm:

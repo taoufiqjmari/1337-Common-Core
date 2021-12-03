@@ -5,7 +5,7 @@
 ```
 ```
 Subject
-	???
+	https://github.com/taoufiqjmari/1337-Common-Core/blob/main/printf/en.subject.pdf
 ```
 ```
 Summary
@@ -43,3 +43,7 @@ How to use:
 The project follows the school norm:
 	https://github.com/taoufiqjmari/1337-Common-Core/blob/main/Norm/C_Norm_V2.0.2/norme.en.pdf
 ```
+## Resources
+
+* [How to write C functions with variable argument lists.(Youtube video)](https://www.youtube.com/watch?v=S-ak715zIIE&ab_channel=JacobSorber)
+* [C library function - printf()(Article)](https://www.tutorialspoint.com/c_standard_library/c_function_printf.htm)
