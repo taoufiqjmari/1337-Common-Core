@@ -6,7 +6,7 @@
 ```
 ```
 Subject
-	???
+	https://github.com/taoufiqjmari/1337-Common-Core/blob/main/Minishell/en.subject.pdf
 ```
 ```
 Summary
@@ -38,7 +38,7 @@ How to use:
 
 4 - Run
 	$> ./minishell
-	// a cyan prompt replace yours, that's where the program start, test it with usual commands
+	// a cyan prompt replaces yours, that's where the program starts, test it with usual commands
 ```
 ```
 The project follows the school norm:
