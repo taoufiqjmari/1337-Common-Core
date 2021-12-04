@@ -67,7 +67,7 @@ AL  CL  DL  BL  SPL BPL SIL DIL
 XMM0 ... XMM15
 ```
 
-## Operations
+### Operations
 
 ```
 ; Save register
@@ -107,7 +107,7 @@ label:
 		jge	-		; >= VALUE
 ```
 
-## Functions
+### Functions
 
 ```
 ; Function call
