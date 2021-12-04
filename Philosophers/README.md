@@ -5,7 +5,7 @@
 ```
 ```
 Subject
-	???
+	https://github.com/taoufiqjmari/1337-Common-Core/blob/main/Philosophers/en.subject.pdf
 ```
 ```
 Summary
