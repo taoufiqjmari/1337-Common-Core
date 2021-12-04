@@ -5,7 +5,7 @@
 ```
 ```
 Subject
-	???
+	https://github.com/taoufiqjmari/1337-Common-Core/blob/main/Push_swap/en.subject.pdf
 ```
 ```
 Summary
@@ -63,7 +63,7 @@ How to use:
 ```
 ```
 The algorithm is explained as pseudocode
-	???
+	https://github.com/taoufiqjmari/1337-Common-Core/blob/main/Push_swap/pseudocode.md
 ```
 ```
 The project follows the school norm:
