@@ -27,6 +27,8 @@ public:
 
 	Bureaucrat	&operator=(const Bureaucrat &);
 
+	// int Gunc() throw();    // will throw nothing
+	// int Hunc() throw(A,B); // can only throw A or B
 	class GradeTooHighException : public std::exception {
 		virtual const char* what() const throw() {
 			return ("Grade is too high");

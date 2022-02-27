@@ -30,4 +30,6 @@ public:
 	virtual	void		makeSound() const = 0;
 };
 
+// I assume that with interface you mean a C++ class with only pure virtual methods (i.e. without any code), instead with abstract class you mean a C++ class with virtual methods that can be overridden, and some code, but at least one pure virtual method that makes the class not instantiable.
+
 #endif
