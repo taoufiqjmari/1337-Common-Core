@@ -6,17 +6,17 @@
 #    By: tjmari <tjmari@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/10/27 13:22:40 by tjmari            #+#    #+#              #
-#    Updated: 2022/07/07 00:27:38 by tjmari           ###   ########.fr        #
+#    Updated: 2022/07/07 00:31:20 by tjmari           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = animal
 
-INCLUDES = Animal.hpp Dog.hpp Cat.hpp WrongAnimal.hpp WrongCat.hpp
+INCLUDES = AMateria.hpp Cure.hpp Ice.hpp ICharacter.hpp Character.hpp IMateriaSource.hpp MateriaSource.hpp
 
-SRCS = main.cpp Animal.cpp Dog.cpp Cat.cpp WrongAnimal.cpp WrongCat.cpp
+SRCS = main.cpp AMateria.cpp Cure.cpp Ice.cpp Character.cpp MateriaSource.cpp
 
-OBJS = main.o Animal.o Dog.o Cat.o WrongAnimal.o WrongCat.o
+OBJS = main.o AMateria.o Cure.o Ice.o Character.o MateriaSource.o
 
 COMPILER = clang++
 

@@ -1,35 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Cat.hpp                                            :+:      :+:    :+:   */
+/*   Cure.hpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tjmari <tjmari@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/27 13:27:31 by tjmari            #+#    #+#             */
-/*   Updated: 2022/07/07 00:28:50 by tjmari           ###   ########.fr       */
+/*   Created: 2022/07/06 15:07:58 by tjmari            #+#    #+#             */
+/*   Updated: 2022/07/07 00:31:09 by tjmari           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CAT_HPP
-#define CAT_HPP
+#ifndef CURE_HPP
+#define CURE_HPP
 
-#include "Animal.hpp"
-#include "Brain.hpp"
+#include "AMateria.hpp"
 
-class Cat : public Animal
+class Cure : public AMateria
 {
-private:
-	Brain *_ideas;
-
 public:
-	Cat();
-	Cat(Cat const &);
-	virtual ~Cat();
+    Cure();
+    Cure(Cure const &);
+    ~Cure();
 
-	Cat &operator=(const Cat &);
+    Cure &operator=(const Cure &);
 
-	virtual void makeSound() const;
-	std::string getIdea() const;
+    AMateria *clone() const;
+    void use(ICharacter &);
 };
 
 #endif

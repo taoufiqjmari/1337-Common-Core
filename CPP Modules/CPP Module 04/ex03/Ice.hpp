@@ -1,35 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Cat.hpp                                            :+:      :+:    :+:   */
+/*   Ice.hpp                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tjmari <tjmari@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/27 13:27:31 by tjmari            #+#    #+#             */
-/*   Updated: 2022/07/07 00:28:50 by tjmari           ###   ########.fr       */
+/*   Created: 2022/07/06 15:06:06 by tjmari            #+#    #+#             */
+/*   Updated: 2022/07/07 00:31:13 by tjmari           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CAT_HPP
-#define CAT_HPP
+#ifndef ICE_HPP
+#define ICE_HPP
 
-#include "Animal.hpp"
-#include "Brain.hpp"
+#include "AMateria.hpp"
 
-class Cat : public Animal
+class Ice : public AMateria
 {
-private:
-	Brain *_ideas;
-
 public:
-	Cat();
-	Cat(Cat const &);
-	virtual ~Cat();
+    Ice();
+    Ice(Ice const &);
+    ~Ice();
 
-	Cat &operator=(const Cat &);
+    Ice &operator=(const Ice &);
 
-	virtual void makeSound() const;
-	std::string getIdea() const;
+    AMateria *clone() const;
+    void use(ICharacter &);
 };
 
 #endif

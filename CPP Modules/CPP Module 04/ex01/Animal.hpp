@@ -6,28 +6,30 @@
 /*   By: tjmari <tjmari@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/27 13:25:52 by tjmari            #+#    #+#             */
-/*   Updated: 2021/10/27 14:23:52 by tjmari           ###   ########.fr       */
+/*   Updated: 2022/07/07 00:28:21 by tjmari           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef ANIMAL_HPP
-# define ANIMAL_HPP
+#define ANIMAL_HPP
 
-# include <iostream>
+#include <iostream>
 
-class Animal {
+class Animal
+{
 protected:
-	std::string	_type;
+	std::string _type;
+
 public:
 	Animal();
 	Animal(std::string);
-	Animal(Animal const&);
-	virtual	~Animal();
+	Animal(Animal const &);
+	virtual ~Animal();
 
-	virtual	Animal	&operator=(const Animal &);
+	virtual Animal &operator=(const Animal &);
 
-	virtual	std::string	getType(void) const;
-	virtual	void		makeSound() const;
+	virtual std::string getType(void) const;
+	virtual void makeSound() const;
 };
 
 #endif

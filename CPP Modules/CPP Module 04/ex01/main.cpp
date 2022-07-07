@@ -6,7 +6,7 @@
 /*   By: tjmari <tjmari@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/27 13:22:37 by tjmari            #+#    #+#             */
-/*   Updated: 2021/10/28 17:17:38 by tjmari           ###   ########.fr       */
+/*   Updated: 2022/07/07 00:29:20 by tjmari           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,13 @@
 #include "Dog.hpp"
 #include "Cat.hpp"
 
-int	main() {
-	Animal	*array[2];
+int main()
+{
+	Animal *array[2];
 	array[0] = new Dog();
 	array[1] = new Cat();
 
-	Dog	Bear;
+	Dog Bear;
 	{
 		Dog tmp = Bear;
 	}
