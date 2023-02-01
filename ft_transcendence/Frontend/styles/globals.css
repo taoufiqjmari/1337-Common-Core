@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.bg-glass {
+		@apply bg-gradient-to-r backdrop-blur-md from-white/40;
+	}
+}

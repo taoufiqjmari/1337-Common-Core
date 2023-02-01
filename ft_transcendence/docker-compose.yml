@@ -1,0 +1,40 @@
+version: "3.8"
+
+networks:
+  mynetwork:
+
+services:
+  backend:
+    container_name: backend
+    build:
+      context: ./Backend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+      - "5500:5500"
+    restart: on-failure
+    env_file:
+      - ./Backend/.env
+    depends_on:
+      - db
+    networks:
+      - mynetwork
+  frontend:
+    container_name: frontend
+    build:
+      context: ./Frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"
+    restart: on-failure
+    depends_on:
+      - backend
+    networks:
+      - mynetwork
+  db:
+    container_name: db
+    image: postgres:13
+    env_file:
+      - ./Backend/.env
+    networks:
+      - mynetwork
