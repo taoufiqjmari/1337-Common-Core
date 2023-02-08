@@ -7,6 +7,14 @@ Users can easily update their profile information, including their username and 
 
 To ensure the security of user information, the app follows best practices, such as hashing passwords before storing them in the database. This helps to protect sensitive user information and prevent unauthorized access.
 ```
+
+![ft_transcendence](../imgs/ft_transcendence_1.png)
+![ft_transcendence](../imgs/ft_transcendence_2.png)
+![ft_transcendence](../imgs/ft_transcendence_3.png)
+![ft_transcendence](../imgs/ft_transcendence_4.png)
+![ft_transcendence](../imgs/ft_transcendence_5.png)
+![ft_transcendence](../imgs/ft_transcendence_6.png)
+
 ```
 Subject
 	https://github.com/taoufiqjmari/1337-Common-Core/blob/main/ft_transcendence/en.subject.pdf
