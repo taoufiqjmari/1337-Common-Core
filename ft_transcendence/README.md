@@ -1,19 +1,15 @@
 # ft_transcendence
 
 ```
-- Soon, you will realize that you already know thing that you thought you didn’t
-- This program was done as a group project with @mohammedmarzouki, @moukasso, and @bougrine-bd
+The web application is an online multiplayer ping pong game built using the NestJS framework for the backend, the NextJS framework for the frontend, and PostgreSQL as the database. The app offers robust authentication features, including JSON Web Token (JWT) authentication and two-factor authentication for added security.
+
+Users can easily update their profile information, including their username and profile picture. The live chat feature allows players to communicate with each other in real-time, adding to the overall gaming experience.
+
+To ensure the security of user information, the app follows best practices, such as hashing passwords before storing them in the database. This helps to protect sensitive user information and prevent unauthorized access.
 ```
 ```
 Subject
 	https://github.com/taoufiqjmari/1337-Common-Core/blob/main/ft_transcendence/en.subject.pdf
-```
-```
-Summary
-- No more C! No more C++!
-This project is about doing something you’ve never done before.
-Remind yourself the beginning of your journey in computer science.
-Look at you now. Time to shine!
 ```
 ```
 Learning outcomes
